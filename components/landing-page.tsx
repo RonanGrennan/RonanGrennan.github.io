@@ -120,7 +120,7 @@ export default function MertyMGMTLanding() {
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <Image
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-              src="https://github.com/RonanGrennan/RonanGrennan.github.io/blob/main/assets/background-image.png?raw=true"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20(2)-S7nWnS3VOgzDp3mEYAEwe8ocHx72tQ.png"
               alt="Social media marketing illustration"
               width={800}
               height={600}
