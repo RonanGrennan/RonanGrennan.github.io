@@ -112,11 +112,6 @@ export default function MertyMGMTLanding() {
                         </Button>
                       </Link>
                     </div>
-                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                      <Button variant="outline" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-purple-100 hover:bg-purple-200 md:py-4 md:text-lg md:px-10">
-                        Learn more
-                      </Button>
-                    </div>
                   </div>
                 </div>
               </main>
@@ -134,7 +129,7 @@ export default function MertyMGMTLanding() {
         </div>
 
         {/* Services section */}
-        <div id="services" className="py-12 bg-white">
+        <div id="services" className="py-28 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:text-center">
               <h2 className="text-base text-purple-600 font-semibold tracking-wide uppercase">Services</h2>
@@ -150,20 +145,20 @@ export default function MertyMGMTLanding() {
               <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                 {[
                   {
-                    name: 'Strategy Development',
-                    description: 'Tailored social media strategies aligned with your business goals.',
+                    name: 'Social Media Management',
+                    description: 'Our experienced team can take over and boost your social media pages to a new level.',
                   },
                   {
                     name: 'Content Creation',
                     description: 'Engaging, platform-specific content that resonates with your audience.',
                   },
                   {
-                    name: 'Community Management',
-                    description: 'Active engagement and community building to foster brand loyalty.',
+                    name: 'Public Relations',
+                    description: 'Claim your dream username, get verified and protect your account from false deletions.',
                   },
                   {
-                    name: 'Analytics & Reporting',
-                    description: 'In-depth analytics and actionable insights to drive continuous improvement.',
+                    name: 'Advertising Campaigns',
+                    description: 'We can manage purchasing ad placements for your campaign across social media.',
                   },
                 ].map((service) => (
                   <div key={service.name} className="relative">
@@ -215,12 +210,12 @@ export default function MertyMGMTLanding() {
                   alt="TikTok"
                   width={150}
                   height={150}
-                  className="max-h-24 w-auto"
+                  className="max-h-28 w-auto"
                 />
               </div>
               <div className="col-span-1 flex justify-center items-center bg-white rounded-lg p-4">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/original-a9926b809fe91d247009c84e82894bfd-T3rpDeDRlrlYOknV2oT9vCkhFD9JHq.png"
+                  src="https://cdn.discordapp.com/attachments/168455638681124864/1292254945025855670/original-a9926b809fe91d247009c84e82894bfd-photoaidcom-cropped.png?ex=670311b3&is=6701c033&hm=4e5e35901c7858e11c20d1bc02310081312b593f1f41a79e08533c7b38befa63&"
                   alt="Stake"
                   width={150}
                   height={150}
@@ -285,7 +280,7 @@ export default function MertyMGMTLanding() {
               </p>
             </div>
             <div className="mt-12">
-              <form action="#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form action="https://docs.google.com/forms/d/e/1FAIpQLSeEDExxDZCRFQXFSI22z1vbGHaMTwi3447AIiT7DBukmVi-RQ/formResponse" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                     First name
@@ -293,7 +288,7 @@ export default function MertyMGMTLanding() {
                   <div className="mt-1">
                     <Input
                       type="text"
-                      name="first-name"
+                      name="entry.1477391780"
                       id="first-name"
                       autoComplete="given-name"
                       className="py-3 px-4 block w-full shadow-sm focus:ring-purple-500 focus:border-purple-500 border-gray-300 rounded-md"
@@ -307,7 +302,7 @@ export default function MertyMGMTLanding() {
                   <div className="mt-1">
                     <Input
                       type="text"
-                      name="last-name"
+                      name="entry.235201040"
                       id="last-name"
                       autoComplete="family-name"
                       className="py-3 px-4 block w-full shadow-sm focus:ring-purple-500 focus:border-purple-500 border-gray-300 rounded-md"
@@ -321,7 +316,7 @@ export default function MertyMGMTLanding() {
                   <div className="mt-1">
                     <Input
                       id="email"
-                      name="email"
+                      name="entry.2103383712"
                       type="email"
                       autoComplete="email"
                       className="py-3 px-4 block w-full shadow-sm focus:ring-purple-500 focus:border-purple-500 border-gray-300 rounded-md"
@@ -335,7 +330,7 @@ export default function MertyMGMTLanding() {
                   <div className="mt-1">
                     <Textarea
                       id="message"
-                      name="message"
+                      name="entry.1727409782"
                       rows={4}
                       className="py-3 px-4 block w-full shadow-sm focus:ring-purple-500 focus:border-purple-500 border border-gray-300 rounded-md"
                       defaultValue={''}
@@ -356,7 +351,7 @@ export default function MertyMGMTLanding() {
       <footer className="bg-white">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
-            <Link href="#" className="text-gray-400 hover:text-gray-500">
+            <Link href="https://www.instagram.com/mertymgmt/" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">Instagram</span>
               <Instagram className="h-6 w-6" aria-hidden="true" />
             </Link>
