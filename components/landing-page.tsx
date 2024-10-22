@@ -28,7 +28,7 @@ export default function MertyMGMTLanding() {
                 alt="Merty MGMT logo"
                 width={50}
                 height={50}
-                src="https://media.discordapp.net/attachments/168455638681124864/1292291797577502760/photo_2022-04-12_03-53-48-removebg-preview.png?ex=67033406&is=6701e286&hm=49c1d67b11ef2ee960de7006ec929c874dc8e321f9ac5ce13fa9472e9c076da5&=&format=webp&quality=lossless&width=550&height=550"
+                src="https://i.imgur.com/PCIAQME.png"
               />
               <Link href="/">
                 <span className="sr-only">Merty MGMT</span>
@@ -137,15 +137,15 @@ export default function MertyMGMTLanding() {
               </main>
             </div>
           </div>
-          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <Image
-              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-96 lg:h-96 lg:m-20 lg:ml-48"
-              src="https://media.discordapp.net/attachments/168455638681124864/1292292602007257159/social-media-post-illustration-download-in-svg-png-gif-file-formats--like-logo-app-application-interface-network-pack-entertainment-illustrations-3867961.webp?ex=670334c5&is=6701e345&hm=706b49152412303fe7f31e2ff7a6198283f5e918b938cb367d089458c52658f9&=&format=webp&width=556&height=495"
+              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-96 lg:h-96 lg:m-20 lg:ml-48 rounded-2xl"
+              src="https://i.imgur.com/v8dQIiY.png"
               alt="Social media marketing illustration"
               width={800}
               height={600}
             />
-          </div>
+            </div>
         </div>
 
         {/* Services section */}
@@ -217,7 +217,7 @@ export default function MertyMGMTLanding() {
               </div>
               <div className="col-span-1 flex justify-center items-center bg-white dark:bg-gray-800 rounded-lg p-4">
                 <Image
-                  src="https://media.discordapp.net/attachments/168455638681124864/1292307190136311848/mark-modified.png?ex=6703425c&is=6701f0dc&hm=e6e6c201565ea6ffa7c74bd52899602608720c2602f347b779f0dba422fbb979&=&format=webp&quality=lossless&width=302&height=302"
+                  src="https://i.imgur.com/9oyUniT.png"
                   alt="Fashion Nova"
                   width={150}
                   height={150}
@@ -226,7 +226,7 @@ export default function MertyMGMTLanding() {
               </div>
               <div className="col-span-1 flex justify-center items-center bg-white dark:bg-gray-800 rounded-lg p-4">
                 <Image
-                  src="https://media.discordapp.net/attachments/168455638681124864/1292307200580128789/tiktok-logo-on-transparent-background-free-vector-modified.png?ex=6703425e&is=6701f0de&hm=df964d00bd8078ff752461e2cf43583923a49cd8715ed9263ac0c902d87fe456&=&format=webp&quality=lossless&width=675&height=675"
+                  src="https://i.imgur.com/b5DINtW.png"
                   alt="TikTok"
                   width={150}
                   height={150}
@@ -235,7 +235,7 @@ export default function MertyMGMTLanding() {
               </div>
               <div className="col-span-1 flex justify-center items-center bg-white dark:bg-gray-800 rounded-lg p-4">
                 <Image
-                  src="https://cdn.discordapp.com/attachments/168455638681124864/1292254945025855670/original-a9926b809fe91d247009c84e82894bfd-photoaidcom-cropped.png?ex=670311b3&is=6701c033&hm=4e5e35901c7858e11c20d1bc02310081312b593f1f41a79e08533c7b38befa63&"
+                  src="https://github.com/RonanGrennan/RonanGrennan.github.io/blob/main/assets/stake.png?raw=true"
                   alt="Stake"
                   width={150}
                   height={150}
